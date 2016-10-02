@@ -1,0 +1,6 @@
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\FIrst Console App\FIrst Console App\bin\Debug\FIrst Console App.exe.config
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\FIrst Console App\FIrst Console App\bin\Debug\FIrst Console App.exe
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\FIrst Console App\FIrst Console App\bin\Debug\FIrst Console App.pdb
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\FIrst Console App\FIrst Console App\obj\Debug\FIrst Console App.csprojResolveAssemblyReference.cache
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\FIrst Console App\FIrst Console App\obj\Debug\FIrst Console App.exe
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\FIrst Console App\FIrst Console App\obj\Debug\FIrst Console App.pdb

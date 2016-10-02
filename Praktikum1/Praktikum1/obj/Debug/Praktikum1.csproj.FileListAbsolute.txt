@@ -1,0 +1,6 @@
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\Praktikum1\Praktikum1\bin\Debug\Praktikum1.exe.config
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\Praktikum1\Praktikum1\bin\Debug\Praktikum1.exe
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\Praktikum1\Praktikum1\bin\Debug\Praktikum1.pdb
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\Praktikum1\Praktikum1\obj\Debug\Praktikum1.csprojResolveAssemblyReference.cache
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\Praktikum1\Praktikum1\obj\Debug\Praktikum1.exe
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\Praktikum1\Praktikum1\obj\Debug\Praktikum1.pdb

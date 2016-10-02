@@ -1,0 +1,10 @@
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\bin\Debug\First Project.exe.config
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\obj\Debug\First Project.csprojResolveAssemblyReference.cache
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\obj\Debug\First_Project.FirstForm.resources
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\obj\Debug\First_Project.Properties.Resources.resources
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\obj\Debug\First Project.csproj.GenerateResource.Cache
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\bin\Debug\First Project.exe
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\bin\Debug\First Project.pdb
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\obj\Debug\First Project.exe
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\obj\Debug\First Project.pdb
+C:\Users\emaktse\Documents\HITSA\GIT Repository\Visual Studio\First Project\First Project\obj\Debug\First_Project.Form2.resources
