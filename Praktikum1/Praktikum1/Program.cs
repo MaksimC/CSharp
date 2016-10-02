@@ -10,12 +10,61 @@ namespace Praktikum1
     {
         static void Main(string[] args)
         {
+            selectFunction();
             
-            //Console.WriteLine("Your insterted number is: " + insertInt());
-            //Console.WriteLine("Inserted temperature in Kelvins is: " + FarToKel() + " Kelvins");
-            //Console.WriteLine("Inserted temperature in Fahrenheits is: " + celsiusToFahrenit() + " Fahrenheits");
-            //Console.WriteLine(adult());
-            Console.WriteLine(triangle());
+        }
+
+        public static void selectFunction()
+        {
+            Console.WriteLine("Select what you would like to do: \n" + 
+                "1. Insert integer number and make sure that it is INT. Press 1 to select. \n" +
+                "2. Convert Kelvins to Fahrenheit. Press 2 to select. \n" +
+                "3. Convert Celsius to Fahrenheit. Press 3 to select. \n" +
+                "4. Check if you are adult or not. Press 4 to select. \n" +
+                "5. Check if number can create a triangle. Press 5 to select. \n" +
+                "6. Count word in sentence. Press 6 to select. \n" +
+                "7. Revert string. Press 7 to select. \n" +
+                "8. Exit. Press 6 to select. \n"
+                );
+            int response = System.Convert.ToInt16(Console.ReadLine());
+
+            switch (response) {
+                case 1:
+                    Console.WriteLine("Your insterted number is: " + insertInt() +"\n");
+                    selectFunction();
+                    break;
+                case 2:
+                    Console.WriteLine("Inserted temperature in Kelvins is: " + FarToKel() + " Kelvins");
+                    selectFunction();
+                    break;
+                case 3:
+                    Console.WriteLine("Inserted temperature in Fahrenheits is: " + celsiusToFahrenit() + " Fahrenheits");
+                    selectFunction();
+                    break;
+                case 4:
+                    Console.WriteLine(adult());
+                    selectFunction();
+                    break;
+                case 5:
+                    Console.WriteLine(triangle());
+                    selectFunction();
+                    break;
+                case 6:
+                    Console.WriteLine(countWordsInString());
+                    selectFunction();
+                    break;
+                case 7:
+                    Console.WriteLine(reverseString());
+                    selectFunction();
+                    break;
+                case 8:
+                    exitApp();
+                    break;
+                default:
+                    exitApp();
+                    break;
+            }
+
         }
 
         public static int insertInt()
@@ -32,6 +81,7 @@ namespace Praktikum1
                 }  
             }
             return a;
+            
         }
 
         public static double FarToKel()
@@ -97,6 +147,45 @@ namespace Praktikum1
             }
 
             return isTriangle;
+        }
+
+        public static string countWordsInString()
+        {
+            string input;
+            int count = 0;
+            string result;
+            Console.WriteLine("Insert sentence");
+            input = Console.ReadLine();
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (Char.IsWhiteSpace(input[i])){
+                    count++;
+                }
+                
+            }
+            result = "There are " + (count + 1) + " word in this sentence.";
+            return result;
+        }
+
+        public static StringBuilder reverseString()
+        {
+            string input;
+            StringBuilder result = new StringBuilder();
+
+            Console.WriteLine("Please insert sentence.");
+            input = Console.ReadLine();
+
+            for (int i = input.Length; i > 0; i--)
+            {
+                result.Append(input[i-1]);
+            }
+
+            return result;
+        }
+
+        public static void exitApp()
+        {
+            Environment.Exit(0);
         }
 
     }
